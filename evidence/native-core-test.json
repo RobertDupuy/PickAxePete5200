@@ -1,0 +1,13 @@
+{
+  "terrain_cases": 20000,
+  "terrain_mismatches": 0,
+  "integrated_ticks": 5000,
+  "state_mismatches": 0,
+  "states_visited": [
+    1,
+    2,
+    3
+  ],
+  "max_tick_instructions": 1802,
+  "state_fields_compared": 66
+}

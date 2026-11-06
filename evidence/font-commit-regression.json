@@ -1,0 +1,283 @@
+{
+  "fixture": "Repeated legal batches without a new prepare, matching the Pause scheduling path. No emulator gameplay state changed.",
+  "before": {
+    "rom_sha256": "45d0560bc3170a12b81cb6fe1a88cb7d21328e82dd9716ff48f70a76b3e45e8d",
+    "cases": [
+      {
+        "bank": 0,
+        "cells": 0,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 0,
+        "cells": 1,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 0,
+        "cells": 31,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 0,
+        "cells": 32,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 0,
+        "cells": 33,
+        "corrupted_protected_bytes": [
+          0,
+          152
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 0,
+        "cells": 45,
+        "corrupted_protected_bytes": [
+          0,
+          248
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 1,
+        "cells": 0,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 1,
+        "cells": 1,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 1,
+        "cells": 31,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 1,
+        "cells": 32,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 1,
+        "cells": 33,
+        "corrupted_protected_bytes": [
+          0,
+          152
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 1,
+        "cells": 45,
+        "corrupted_protected_bytes": [
+          0,
+          248
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 2,
+        "cells": 0,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 2,
+        "cells": 1,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 2,
+        "cells": 31,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 2,
+        "cells": 32,
+        "corrupted_protected_bytes": [
+          0,
+          0
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 2,
+        "cells": 33,
+        "corrupted_protected_bytes": [
+          0,
+          152
+        ],
+        "commits": 2
+      },
+      {
+        "bank": 2,
+        "cells": 45,
+        "corrupted_protected_bytes": [
+          0,
+          246
+        ],
+        "commits": 2
+      }
+    ]
+  },
+  "after": {
+    "rom_sha256": "751c980a800df51830b9a34b09c83e127b6da66c1c65a5787ac4fe672ac47c64",
+    "cases": [
+      {
+        "bank": 0,
+        "cells": 0,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 0,
+        "cells": 1,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 0,
+        "cells": 31,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 0,
+        "cells": 32,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 0,
+        "cells": 33,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 0,
+        "cells": 45,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 1,
+        "cells": 0,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 1,
+        "cells": 1,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 1,
+        "cells": 31,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 1,
+        "cells": 32,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 1,
+        "cells": 33,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 1,
+        "cells": 45,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 2,
+        "cells": 0,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 2,
+        "cells": 1,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 2,
+        "cells": 31,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 2,
+        "cells": 32,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 2,
+        "cells": 33,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      },
+      {
+        "bank": 2,
+        "cells": 45,
+        "corrupted_protected_bytes": 0,
+        "commits": 120
+      }
+    ]
+  }
+}

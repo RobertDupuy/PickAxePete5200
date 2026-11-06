@@ -1,0 +1,9 @@
+{
+  "transition_frames_checked": 244,
+  "stale_player_bytes": 0,
+  "floor_removed": true,
+  "high_score_after_death": 42,
+  "extended_gameplay_frames": 6000,
+  "missed_frames": 0,
+  "fixtures": "Key/door position and death-score cases seeded in RAM; game code handles outcomes. Long run uses normal game execution."
+}

@@ -1,0 +1,7 @@
+/native/build5200/
+__pycache__/
+*.pyc
+*.so
+*.mp4
+*.wav
+/evidence/*/config/

@@ -1,0 +1,180 @@
+{
+  "car_sha256": "6b17de36f562ed66243d8022dee9b973725cb41726ec74452a2a6a521a1e280a",
+  "revision": "HUD separator and fixed PLYR1 label",
+  "fixes": [
+    "Replace character-based separator with three bitmap lines and five blank lines",
+    "Move HUD display interrupt to scanline 213 before score scanline 216",
+    "Use PLYR1 at startup and after a high score",
+    "Remove 5200 controller name-entry mode",
+    "Retain scene/NMI synchronization and repeated font-commit corrections"
+  ],
+  "current_checks": {
+    "hud_boundary": {
+      "fixed_label": "PLYR1",
+      "glyph_codes": [
+        15,
+        14,
+        44,
+        19,
+        1,
+        12
+      ],
+      "name_entry_disabled": true,
+      "start_label_correct": true,
+      "high_score_label_correct": true,
+      "post_restart_frames": 1800,
+      "missed_frames": 0,
+      "separator_geometry": {
+        "floor_scanlines": [
+          208,
+          209,
+          210
+        ],
+        "blank_scanlines": [
+          211,
+          212,
+          213,
+          214,
+          215
+        ],
+        "hud_dli_scanline": 213,
+        "hud_first_scanline": 216
+      },
+      "blank_pixel_checks": 4215,
+      "hud_switch_samples": [
+        {
+          "ok": true,
+          "DMACTL": "$3e",
+          "CHACTL": "$02",
+          "DLISTL": "$4d",
+          "DLISTH": "$04",
+          "HSCROL": "$00",
+          "VSCROL": "$00",
+          "PMBASE": "$18",
+          "CHBASE": "$28",
+          "NMIEN": "$c0",
+          "DLIST": "$044d",
+          "beam_x": 73,
+          "beam_y": 213
+        },
+        {
+          "ok": true,
+          "DMACTL": "$3e",
+          "CHACTL": "$02",
+          "DLISTL": "$4d",
+          "DLISTH": "$04",
+          "HSCROL": "$00",
+          "VSCROL": "$00",
+          "PMBASE": "$18",
+          "CHBASE": "$20",
+          "NMIEN": "$c0",
+          "DLIST": "$044d",
+          "beam_x": 74,
+          "beam_y": 213
+        },
+        {
+          "ok": true,
+          "DMACTL": "$3e",
+          "CHACTL": "$02",
+          "DLISTL": "$4d",
+          "DLISTH": "$04",
+          "HSCROL": "$00",
+          "VSCROL": "$00",
+          "PMBASE": "$18",
+          "CHBASE": "$20",
+          "NMIEN": "$c0",
+          "DLIST": "$044d",
+          "beam_x": 76,
+          "beam_y": 213
+        },
+        {
+          "ok": true,
+          "DMACTL": "$3e",
+          "CHACTL": "$02",
+          "DLISTL": "$4d",
+          "DLISTH": "$04",
+          "HSCROL": "$00",
+          "VSCROL": "$00",
+          "PMBASE": "$18",
+          "CHBASE": "$20",
+          "NMIEN": "$c0",
+          "DLIST": "$044d",
+          "beam_x": 74,
+          "beam_y": 213
+        },
+        {
+          "ok": true,
+          "DMACTL": "$3e",
+          "CHACTL": "$02",
+          "DLISTL": "$4d",
+          "DLISTH": "$04",
+          "HSCROL": "$00",
+          "VSCROL": "$00",
+          "PMBASE": "$18",
+          "CHBASE": "$24",
+          "NMIEN": "$c0",
+          "DLIST": "$044d",
+          "beam_x": 73,
+          "beam_y": 213
+        },
+        {
+          "ok": true,
+          "DMACTL": "$3e",
+          "CHACTL": "$02",
+          "DLISTL": "$4d",
+          "DLISTH": "$04",
+          "HSCROL": "$00",
+          "VSCROL": "$00",
+          "PMBASE": "$18",
+          "CHBASE": "$20",
+          "NMIEN": "$c0",
+          "DLIST": "$044d",
+          "beam_x": 72,
+          "beam_y": 213
+        },
+        {
+          "ok": true,
+          "DMACTL": "$3e",
+          "CHACTL": "$02",
+          "DLISTL": "$4d",
+          "DLISTH": "$04",
+          "HSCROL": "$00",
+          "VSCROL": "$00",
+          "PMBASE": "$18",
+          "CHBASE": "$20",
+          "NMIEN": "$c0",
+          "DLIST": "$044d",
+          "beam_x": 72,
+          "beam_y": 213
+        },
+        {
+          "ok": true,
+          "DMACTL": "$3e",
+          "CHACTL": "$02",
+          "DLISTL": "$4d",
+          "DLISTH": "$04",
+          "HSCROL": "$00",
+          "VSCROL": "$00",
+          "PMBASE": "$18",
+          "CHBASE": "$20",
+          "NMIEN": "$c0",
+          "DLIST": "$044d",
+          "beam_x": 75,
+          "beam_y": 213
+        }
+      ],
+      "fixtures": "Death and score are seeded solely to exercise high-score saving; keypad */# use physical controller inputs. PMG is temporarily disabled only for the final background-only screenshot, to exclude normal overlapping sprite effects."
+    },
+    "terrain_queries": 20000,
+    "integrated_ticks": 5000,
+    "renderer_pixel_and_pmg_checks": 7296000,
+    "hud_pixel_checks": 82432,
+    "interrupt_fault_cases": 16,
+    "interrupt_failures": 0,
+    "repeated_font_commits": 2160,
+    "protected_font_changes": 0,
+    "source_rebuild_byte_identical": true
+  },
+  "physical_hardware_tested": false,
+  "longer_gameplay_and_ten_layout_reports": "Historical checks before this HUD revision; see README."
+}

@@ -1,0 +1,426 @@
+{
+  "method": "Exercise linked 6502 interrupt code through the original BIOS NMI dispatcher.\nOmit individual DLIs deliberately and require the next frame to recover.\nThis is interrupt fault injection, not a claim of controller-play reproduction.\n",
+  "before": [
+    {
+      "omitted_dli_mask": 0,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 1,
+      "next_frame_font": 44,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        36,
+        44
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 2,
+      "next_frame_font": 44,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        36,
+        44
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 3,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        44,
+        36,
+        36,
+        36
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 4,
+      "next_frame_font": 44,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        36,
+        44
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 5,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        44,
+        36,
+        36,
+        36
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 6,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        44,
+        36,
+        36,
+        36
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 7,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        44,
+        36,
+        36
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 8,
+      "next_frame_font": 44,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        36,
+        44
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 9,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        44,
+        36,
+        36,
+        36
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 10,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        44,
+        36,
+        36,
+        36
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 11,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        44,
+        36,
+        36
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 12,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        44,
+        36,
+        36,
+        36
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 13,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        44,
+        36,
+        36
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 14,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        44,
+        36,
+        36
+      ],
+      "recovered": false,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    },
+    {
+      "omitted_dli_mask": 15,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108441,
+      "scene_writes_with_nmi_enabled": 13132
+    }
+  ],
+  "after": [
+    {
+      "omitted_dli_mask": 0,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 1,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 2,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 3,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 4,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 5,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 6,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 7,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 8,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 9,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 10,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 11,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 12,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 13,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 14,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    },
+    {
+      "omitted_dli_mask": 15,
+      "next_frame_font": 36,
+      "next_frame_phase_fonts": [
+        36,
+        36,
+        44,
+        36
+      ],
+      "recovered": true,
+      "scene_setup_cpu_cycles": 108107,
+      "scene_writes_with_nmi_enabled": 0
+    }
+  ],
+  "before_failed_cases": 14,
+  "after_failed_cases": 0,
+  "preserved_cpu_registers": true
+}
